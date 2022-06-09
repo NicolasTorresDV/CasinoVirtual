@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casino Virtual - Nicolás Torres</title>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <h1> Tu opinion es muy importante! </h1>
+
+
+    <div class="formSection">
+        <form class="form" class="form">
+            <h2>Información</h2>
+            <div class="form__section">
+                <label for="email">Correo Electrónico:</label>
+                <input id="inputEmail" type="email" name="email" required>
+            </div>
+            <div class="formSectionSections">
+                <h2>Detalles</h2>
+                <label for="comment">Comentarios:</label>
+                <br>
+                <textarea id="textAreaSugerencias" name="comment" cols="30" rows="10" placeholder="Deja tus comentarios"></textarea>
+                <div class="formSectionSections">
+                    <input id="botonEnviarSugerencia" value="Enviar Información" class="buttonSection">
+                    <button  class="buttonSection" onclick="location.href='index.html'">Volver</button>
+                </div>
+            </div>
+            
+        </form>
+    </div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="js/sugerencias.js"></script>
+</body>
+ 
+</html>

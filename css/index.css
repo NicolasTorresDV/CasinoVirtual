@@ -1,0 +1,259 @@
+body{
+    background-color: crimson;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+h1{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    margin: 0;
+    padding: 50px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Cinzel Decorative", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 6rem; }
+
+
+
+.sectionContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+    font-family: "Cinzel Decorative", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    height: 500px;
+}    
+
+.buttonPlay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: -webkit-fill-available;
+    margin: 5%;
+    background-color: white; 
+    font-family: "Cinzel Decorative", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 60px;
+}
+
+.dicesSectionContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: -webkit-fill-available;
+}
+
+.dicesSectionContainer a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    font-size: 30px;
+}
+
+.dicesSection{
+    background-color: #ff6685;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Cinzel Decorative", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 60px;
+    padding: 2%;
+    flex-direction: column;
+    height: 400px;
+}
+
+.dicesSection img{
+    margin: 5%;
+}
+
+#gameSectionDice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sectionMessage{
+    background-color: #fce8be;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Cinzel Decorative", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 40px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.sectionStats{
+    background-color: #ff6685;
+    font-family: "Cinzel Decorative", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 40px;
+    padding: 2%;
+    text-align: center;
+
+}
+
+.sectionFortune{
+    background-color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    padding: 2%;
+    text-align: center;
+
+}
+
+.sectionFortune a {
+    font-family: "Cinzel Decorative", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.cards{
+    height: 160px;
+    width: auto;
+}
+
+.blackJackContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.handSectionContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#handMessageSection{
+    width: max-content;
+}
+
+.handSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards{
+    margin: 15px 10px 15px 10px;
+}
+
+.messageSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Cinzel Decorative", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 40px;
+    padding: 2%;
+    text-align: center;
+}
+
+#totalManoJ{
+    font-family: "Cinzel Decorative", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 20px;
+}
+#totalManoIA{
+    font-family: "Cinzel Decorative", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 20px;
+}
+
+.buttonSectionContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonSection{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+}
+.footer{
+    background-color: #1b2127;
+    bottom: 0%;
+    width: -webkit-fill-available;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    padding: 10px;
+    margin-top:auto
+}
+
+.sectionFooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.sectionFooter p{
+    font-family: "Cinzel Decorative", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-right: 10px;
+    font-size: 35px;
+
+}
+
+.sectionFooter a{
+    font-family: "Cinzel Decorative", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 35px;
+    text-decoration: none;
+    color: #00e9f5;
+}
+
+
+.formSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #1b2127;
+    color: white;
+    position: sticky;
+}
+.form {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1000px;
+    background-color: #445261;
+    font-family: "Cinzel Decorative", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    height: 90vh;
+}
+.formSectionSections{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+form textarea{
+    width: 100%;
+    font-size: 20px;
+}
+
+form label{
+    font-size: 25px;
+}
